@@ -59,27 +59,42 @@ hr {
     width: 30%;
 }
 
+.main-button:hover {
+    background-color: #c26400;
+    border-color: #c26400;
+}
+
 .secondary-screen {
     padding: 106px 0;
 }
 
 .game-big-card {
     margin-bottom: 16px;
+    padding: 0 0 16px 0;
+}
+
+.game-big-card:hover {
+    box-shadow: 0 4px 10px 0 lightgray;
 }
 
 .game-sm-card {
-    margin-bottom: 52px;
+    margin-bottom: 54px;
+    padding: 0 0 16px 0;
+}
+
+.game-sm-card:hover {
+    box-shadow: 0 4px 10px 0 lightgray;
 }
 
 .description-big-cards {
     font-size: 18px;
-    margin-top: 12px;
+    margin: 12px 16px 0 16px;
     font-weight: bold;
 }
 
 .description-sm-cards {
     font-weight: bold;
-    margin-top: 12px;
+    margin: 12px 16px 0 16px;
 }
 
 #delivery-screen {
@@ -129,6 +144,12 @@ hr {
     border: 3px #ffa304 solid;
     background-color: white;
     width: 30%;
+}
+
+.secondary-button:hover {
+    background-color: #c26400;
+    border-color: #c26400;
+    color: white;
 }
 
 .footer {
