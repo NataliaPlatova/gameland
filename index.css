@@ -1,0 +1,116 @@
+h1, h2, .decorative{
+    font-family: "Hagin Caps Medium";
+    font-weight: normal;
+}
+
+h3, h4, p, a {
+    font-family: "Lato";
+    font-weight: normal;
+    margin: 0;
+}
+
+div {
+    margin: 0;
+}
+
+h1 {
+    font-size: 56px;
+}
+
+h2 {
+    font-size: 48px;
+    margin-bottom: 56px;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+p {
+    font-size: 15px;
+}
+
+div.main-screen {
+    background-image: url("./images/main_image.png");
+}
+
+.main-screen-header {
+    margin: 120px 0;
+}
+
+hr {
+    height: 3px;
+    color: #ffa304;
+    background-color: #ffa304;
+    width: 25%;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.main-screen-icons {
+    font-size: 3.5rem;
+    color: #ffa304;
+}
+
+.main-button {
+    background-color: #ffa304;
+    border-color: #ffa304;
+    width: 30%;
+}
+
+.secondary-screen {
+    padding: 106px 0;
+}
+
+.game-big-card {
+    margin-bottom: 16px;
+}
+
+.game-sm-card {
+    margin-bottom: 52px;
+}
+
+.description-big-cards {
+    font-size: 18px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.description-sm-cards {
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+#delivery-screen {
+    background-image: url("./images/delivery_image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.decorative {
+    font-size: 110px;
+    margin-right: 16px;
+}
+
+.photo-border {
+    height: 120px;
+    width: 120px;
+    border-radius: 70px;
+    border: 7px #ffa304 solid;
+
+}
+
+.cust-photo-1 {
+    height: 84px;
+    width: 84px;
+    border-radius: 50px;
+    background-image: url("./images/customers_images/cust_image_1.png");
+}
+
+.cust-photo-2 {
+    height: 84px;
+    width: 84px;
+    border-radius: 50px;
+    background-image: url("./images/customers_images/cust_image_2.png");
+}
