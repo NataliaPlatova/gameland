@@ -31,7 +31,7 @@ p {
     font-size: 15px;
 }
 
-div.main-screen {
+.main-screen {
     background-image: url("./images/main_image.png");
 }
 
@@ -48,6 +48,10 @@ hr {
     margin-left: 0;
 }
 
+.main-screen-icons-and-text {
+    margin: 0;
+}
+
 .main-screen-icons {
     font-size: 3.5rem;
     color: #ffa304;
@@ -56,7 +60,7 @@ hr {
 .main-button {
     background-color: #ffa304;
     border-color: #ffa304;
-    width: 30%;
+    width: 100%;
 }
 
 .main-button:hover {
@@ -145,8 +149,8 @@ hr {
 .secondary-button {
     border: 3px #ffa304 solid;
     background-color: white;
-    width: 30%;
     color: black;
+    width: 100%;
 }
 
 .secondary-button:hover {
@@ -235,4 +239,13 @@ hr {
 #gamePrice {
     font-size: 16px;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 990px) {
+    .main-screen {
+        background-image: url("./images/main_image_small.png");
+    }
+     .main-screen-icons-and-text {
+         margin-bottom: 16px;
+     }
 }
