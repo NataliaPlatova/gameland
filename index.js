@@ -11,4 +11,9 @@ $(window).on("load", ()=>{
         $('#gamePrice').html(gamePrice);
         overlayedCardImage[0].attributes[0].value = imageSrc;
     });
+
+    $('#close').on("click", function () {
+        console.log('22');
+        $(".overlay").css("display", "none");
+    });
 });
